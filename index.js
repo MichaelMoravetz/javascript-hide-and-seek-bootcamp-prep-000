@@ -9,6 +9,7 @@ function nestedTarget() {
 }
  
  function deepestChild() {
+<<<<<<< HEAD
   let node = document.getElementById('grand-node');
   let nextNode = node.children[0];
 
@@ -40,4 +41,8 @@ function nestedTarget() {
      lis[i].innerHTML = parseInt(lis[i].innerHTML) + n;
     
    }
+=======
+  
+  var deepChild = document.getElementById('grand-node').querySelectorALl('di') 
+>>>>>>> 96eb92788d5768337b8ec5389fbbd4526b042ba7
  }
